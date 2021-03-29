@@ -9,43 +9,83 @@ a{
 }
 
 .main{
-    background-color:darkgreen;
+    background-color:antiquewhite;
     width: auto;
     height: 700px;
+    position: 0,0;
+    margin: 0;
+    padding:0;
 }
 
 .background-left{
     background-color: rgb(230, 188, 231);
     display:inline-block;
     width: 70%;
-    min-width: 700px;
+    min-width: 900px;
     height: 700px;
 
 }
 .background-right{
-    /*background-color:blueviolet;*/
+    background-color:blueviolet;
     display:inline-block;
-    width: 30%;
+    width: 100%;
+    min-width:20px;
+    height: 700px;
+    position:fixed;
 }
 .imgContain{
-    width:500px;
+    width:400px;
     position:relative;
    /* margin-top: 50px;
     margin-right: 28%;
     margin-left: 30%;
     padding*/
     padding-top: 50px;    
-    padding-left: 10%;
-    padding-right: auto;    
+    padding-left: 5%;
+    padding-right: 10px;    
     display:inline-block;
 }
 .main-img{
     width:400px;
 }
-.mainWrite{
-    display:inline-block;
-    min-width: 300px;
-}
+
 .writeContain{
-    
+    display:inline-block;
 }
+.mainWrite{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.btn{
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    margin: 25px;
+    padding: 10px;
+}
+
+a.btnLink {
+    display: inline-block;
+    background-color: #F0F0F0;
+    border: 10px solid #E75C37;
+    border-radius: 5px;
+    line-height: 1;
+
+    width: 240px;
+    height: 90px;
+
+    margin-top:15px; margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 0px;
+
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    font: 50px 'Nanum Gothic';
+    font-weight: 800;
+    
+    color:#E75C37;
+    text-decoration: none;
+    }
+a.btnLink:hover {background-color:#E75C37; color:#fff;}
