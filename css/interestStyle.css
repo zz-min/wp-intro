@@ -1,0 +1,25 @@
+/*  . : class
+    # : id      */
+
+    body{
+        margin:2%;
+    }
+    ul,li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+.imgContain{
+    display: inline-block;
+}
+.zoo-57img{
+    width: 200px;
+}
+.writeContain{
+    display: inline-block;
+}

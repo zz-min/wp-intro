@@ -1,0 +1,41 @@
+/*  . : class
+    # : id      */
+
+    body{
+        margin:2%;
+    }
+    ul,li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+
+.imgContain{
+    display: inline-block;
+}
+.zoo-57img{
+    width: 200px;
+}
+.writeContain{
+    display: inline-block;
+}
+.container{
+    margin-bottom: 20px;
+}
+.container-box{
+    display: inline-block;
+    background-color: #F0F0F0;
+    border: 10px solid #d8fc3b;
+    border-radius: 5px;
+    line-height: 1;
+
+    width: 48%;
+    height: 300px;
+
+    text-align: center;
+}
